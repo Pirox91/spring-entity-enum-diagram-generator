@@ -18,6 +18,14 @@ This script generates PlantUML diagrams from Java files by parsing entity classe
    ```
 
 2. Ensure the input directory is accessible and contains Java files.
+## Usage
+1. Change input_directory variable:
+   ```bash
+   # 👇 Hardcoded path here
+   input_directory = r"path\to\your\java\directory"  # Change this to your Java directory
+   ```
+
+2. Run the python script the way you prefer
 
 ## Output
 The script generates a `plant.txt` file containing the PlantUML diagram. You can use any PlantUML rendering tool to visualize the diagram.

@@ -208,7 +208,7 @@ if __name__ == "__main__":
         print(f"Found {sum(len(classes) for classes in packages.values())} entity classes.")
         diagram = generate_plantuml(packages, enums)
         
-        output_file = "talbi.pu"
+        output_file = "output.pu"
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(diagram)
         
